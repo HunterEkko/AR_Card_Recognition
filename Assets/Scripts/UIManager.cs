@@ -10,15 +10,13 @@ public class UIManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (TSM.Status == TrackableStatusManager.TurnStates.TRACK && !isOpen)
+        if (TSM.Status == TrackableStatusManager.TurnStates.TRACK)
         {
             UICanvas.SetActive(true);
-            isOpen = true;
         }
         else
         {
             UICanvas.SetActive(false);
-            isOpen = false;
         }
     }
 }
