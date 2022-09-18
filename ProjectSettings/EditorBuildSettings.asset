@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/AR_Triangle.unity
     guid: 2e28430e95957a246922f62d5a1af98d
+  - enabled: 1
+    path: Assets/Scenes/Test.unity
+    guid: 82f9a33c386dd5d43877af303d7d3646
   m_configObjects: {}

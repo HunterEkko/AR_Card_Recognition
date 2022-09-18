@@ -5,17 +5,17 @@ using UnityEngine;
 public class SingleUISwitch : MonoBehaviour
 {
      public TrackableStatusManager TSM;
-    public GameObject UICanvas;
+    public GameObject UI;
     // Update is called once per frame
     void Update()
     {
         if (TSM.Status == TrackableStatusManager.TurnStates.TRACK)
         {
-            UICanvas.SetActive(true);
+            UI.SetActive(true);
         }
         else
         {
-            UICanvas.SetActive(false);
+            UI.SetActive(false);
         }
     }
 }
