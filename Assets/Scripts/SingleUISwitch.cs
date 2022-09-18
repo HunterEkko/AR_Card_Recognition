@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class UIManager : MonoBehaviour
+public class SingleUISwitch : MonoBehaviour
 {
-    public TrackableStatusManager TSM;
+     public TrackableStatusManager TSM;
     public GameObject UICanvas;
-    private bool isOpen = false;
     // Update is called once per frame
     void Update()
     {
