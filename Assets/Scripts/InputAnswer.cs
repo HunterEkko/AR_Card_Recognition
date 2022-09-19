@@ -7,12 +7,13 @@ public class InputAnswer : MonoBehaviour
 {
     public TMP_InputField Input;
     [SerializeField] private string Answer;
+    [SerializeField] private int MaxLen;
     public Color colorRight, colorWrong;
     // Start is called before the first frame update
     void Start()
     {
         Input = this.gameObject.GetComponent<TMP_InputField>();
-        Input.characterLimit = 5;
+        Input.characterLimit = MaxLen;
     }
 
     public void Submit()
