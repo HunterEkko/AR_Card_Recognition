@@ -5,26 +5,37 @@ using TMPro;
 using UnityEngine.UI;
 public class InputAnswer : MonoBehaviour
 {
-    private TMP_InputField Input;
+    public TMP_InputField Input;
     [SerializeField] private string Answer;
+    public Color colorRight, colorWrong;
     // Start is called before the first frame update
     void Start()
     {
         Input = this.gameObject.GetComponent<TMP_InputField>();
-        Input.characterLimit = 8; 
+        Input.characterLimit = 5;
     }
 
     public void Submit()
     {
-        if(!Input.text.Equals(Answer))
+        if (!Input.text.Equals(Answer))
         {
-            Input.gameObject.GetComponentInChildren<TextMeshProUGUI>().color = Color.red;
+            Input.gameObject.GetComponentInChildren<TextMeshProUGUI>().color = colorWrong;
         }
+        Input.enabled = false;
     }
 
     public void ShowAnswer()
     {
-        Input.text = Answer;
-        Input.gameObject.GetComponentInChildren<TextMeshProUGUI>().color = Color.green;
+        if (!Input.text.Equals(Answer))
+        {
+            Input.text = Answer;
+            Input.gameObject.GetComponentInChildren<TextMeshProUGUI>().color = colorRight;
+        }
+    }
+
+    public void Clear()
+    {
+        Input.text = "";
+        Input.gameObject.GetComponentInChildren<TextMeshProUGUI>().color = Color.black;
     }
 }
