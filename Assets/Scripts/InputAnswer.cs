@@ -24,6 +24,11 @@ public class InputAnswer : MonoBehaviour
         Input.enabled = false;
     }
 
+    public void SetLegel(int num)
+    {
+        Answer = num.ToString();
+    }
+
     public void ShowAnswer()
     {
         if (!Input.text.Equals(Answer))
