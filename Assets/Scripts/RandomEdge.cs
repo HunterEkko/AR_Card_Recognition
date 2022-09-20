@@ -25,6 +25,6 @@ public class RandomEdge : MonoBehaviour
         {
             blank.GetComponent<InputAnswer>().SetLegel(2);
         }
-        tmp.text = num[0] + ", " + num[1] + ", " + num[2];
+        tmp.text = num[0] + " 公分，" + num[1] + " 公分，" + num[2] + " 公分";
     }
 }
