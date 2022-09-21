@@ -21,6 +21,9 @@ public class RandomAngle : MonoBehaviour
         denominator /= k;
         numerator /= k;
         ans = 360 * numerator / denominator;
+
+        tmp.text = denominator.ToString();
+        this.transform.parent.Find("Text-numerator").GetComponent<TMP_Text>().text = numerator.ToString();
         blank.GetComponent<InputAnswer>().SetLegel(ans);
     }
     int gcd(int a, int b)
