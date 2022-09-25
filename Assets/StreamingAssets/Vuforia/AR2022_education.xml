@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="triangular-cone" size="1.000000 1.000000" />
+    <ImageTarget name="triangular-column" size="1.000000 1.000000" />
+    <ImageTarget name="square" size="1.000000 1.000000" />
+    <ImageTarget name="sector" size="1.000000 1.000000" />
+    <ImageTarget name="round" size="1.000000 1.000000" />
+    <ImageTarget name="right-triangle" size="1.000000 1.000000" />
+    <ImageTarget name="rectangle" size="1.000000 1.001057" />
+    <ImageTarget name="quadrilateral-pyramid" size="1.000000 0.998943" />
+    <ImageTarget name="quadrangular-prism" size="1.000000 0.998943" />
+    <ImageTarget name="parallelogram" size="1.000000 1.000000" />
+    <ImageTarget name="obtuse-triangle" size="1.000000 1.000000" />
+    <ImageTarget name="isosceles-triangle" size="1.000000 1.000000" />
+    <ImageTarget name="diamond" size="1.000000 1.000000" />
+    <ImageTarget name="cylinder" size="1.000000 1.000000" />
+    <ImageTarget name="cone" size="1.000000 1.000000" />
+    <ImageTarget name="acute-triangle" size="1.000000 1.000000" />
     <ImageTarget name="logo" size="1.000000 0.928793" />
   </Tracking>
 </QCARConfig>
