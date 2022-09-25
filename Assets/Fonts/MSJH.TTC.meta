@@ -11,9 +11,7 @@ TrueTypeFontImporter:
   fontName: Microsoft JhengHei
   fontNames:
   - Microsoft JhengHei
-  fallbackFontReferences:
-  - {fileID: 12800000, guid: 648c74d373b89af48b248f054e05b3a4, type: 3}
-  - {fileID: 12800000, guid: 627b528520e0a964ebb0e2355ab75012, type: 3}
+  fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1

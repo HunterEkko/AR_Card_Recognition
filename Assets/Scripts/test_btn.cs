@@ -115,7 +115,7 @@ public class test_btn : MonoBehaviour
 
     public void ScrollChange(Vector2 value)
     {
-        if (value.y <= 0.2)
+        if (value.y <= 0.1)
         {
             UnderBtn.SetActive(false);
         }
