@@ -12,9 +12,10 @@ public class TrackableStatusManager : MonoBehaviour, ITrackableEventHandler
     public TurnStates Status { get { return this.status; } set { status = value; } }
     private TurnStates status;
     private TrackableBehaviour trackableBehaviour;
-    public GameObject Target;
+    private GameObject Target;
     void Start()
     {
+        Target = this.gameObject;
         trackableBehaviour = Target.GetComponent<TrackableBehaviour>();
         if (trackableBehaviour)
         {

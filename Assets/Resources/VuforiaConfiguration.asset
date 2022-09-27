@@ -13,53 +13,28 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: AYZ3Kdf/////AAABmc4nI26yL01RpN4A44l/v6daRXXKbKs97YbV90yUCjeIM4nTk1gszSvE7Fg/bJZj/euknclAkppkj6V0PFxyw1NEpcx5TOulUURzjVrOy5DL5NpIX2txNiSOX5EqlV/eCNkaSEvBUJabbPK+MWO+9oSKfmxcEh8pmoskRce2Q88osoZVOZ6TtZBQ0pfvdstARDFYPDdIsEjA4m723tFc7SULGRHbl9gc51XK5+iJsEGqrGKAUMwtUApxPAj11L1squHxnJ/oFRQ0U1LlnJQ14fTuf79LRbHC+/7FyMf+WDqVTWu49kAzoikiMoGex+zyL6xAHzI6seGo6wbsMvzWVCV2n3vday4Sn8l6GYViLlLT
-    ufoLicenseKey: QVoxNWZ0Ny8vLy8vQUFBQUtJTFgwSEl3VUV0Y2dnUWNSVEU2YVIxVGhPNW1CNGxzUjNSQTJaZzJzTmU5MHp1aTVORU9YWVRUZXZoNHlHYm5BUVg5a3QyY1VicEZuUUxBc2xKSDNWS1dHM01NWWJ4SUw0bWpwdHNhT3N1Q2F5K2ZxWlRiT3Z0bVVFOWpvbWV5Zm1PbVFCV2ZDQjlBRzNiTkNOSDhrSU4vQUtqWVRHTUNPWjh3cThrZG1PZHRkTDJkT1E5S0F2RU5WcllNN1BrSm9yK3p1ZW5SSnBXbDJWcTdId0U4di9XU05KK1lkcWw4Sm1uQlFESEJoSVpGQzMzNXptaWlCRHM5L3hlN2tMcmx2RVJZMGs5QklwSW5HV3pmek1LNjBaRXZtdEtXQWtrUVRNeEVvR1VXbW1meEtBU2ZuVW9FdFJGZUFVRlkvWkROMXJxbXNMRVJSMVVtU21DaitQdUV6ZXFKeGhwb0NNRUVwYlRDQThhMDBlYjI=
+    vuforiaLicenseKey: AVy2wVD/////AAABmRaNJKDcsE+ojGIiF15VrftZWgRd07w6sbt8vwNTyd62lAqpD2QsHcpnsKQOM75mMrjmBx3XFT8IqsKIgJoGcq5Pn/A/+9t06SDysC3p3YfIaZlSoKYcBIUeCSWfER/uQZffs/UIJzfjWpA8CfwxKAuI3q3H4cQjoTRKfnxFjQtaw5f8AC6jqDYWPRi3xzxznnOpojP51/Z7H3edsmpdMNha0jqQ07i5OsuMGOg+XD90ZgdUlSfPkxHmkImGuPzfHDhckOkO3eqbJtbKbf5zwwuQdHtT6K+esdGo1SuCMIyz25owCXqSuWU8BhYU3fhcCUvPF7KsENz+OUnMoFafuBTJ5KXYfr/duWJmZCen2nVu
+    ufoLicenseKey: QWY4WFRGYi8vLy8vQUFBQUtPMEZZWUVPRlVqSWdYMzgxSDRNUVJGWnI4SFJnaVgrKzFFRzlQZE1HYmFkYjRnak43VVA0ZWR0ZlNWRkpYd0RUOGF4UUVMTHE0M3NQZTFoeWhmN2dYMVVyS2VKSy9vOW50aXp5ZThKTkppWVRUVGQ4bEpkbU5sb3RrUTFvb0EzWjUyanRVU0dIL0RoZmtudkdoZzdLU1FSN3pBamRSbmkzZ09jMURzRm52d3VYNEF1MlpmQXo4dXkrTWpGbmZXeFpQZHNlYkFUZ0JFVjBqMkNRaTFlNHBkbDI1QTI2bkUzRnpjdStWeUFYZ1BUVXQzMkNjdDAvSVlwOGIyWi9hQkdGbjVlU1kyRzRSMjV4TGRxOGJWVEtFNVozdS9sYitjZkVzRkRHa3BVY0lqYStGWmtzdDVMOTMxZGs1TC84RFUxRTVlWWlPNmJUTFBzSkNLYlRTUzN0QUI1SW9Na0orR3doUWlraFdHSCs1cFU=
     delayedInitialization: 1
     cameraDeviceModeSetting: -1
     maxSimultaneousImageTargets: 1
     maxSimultaneousObjectTargets: 1
     useDelayedLoadingObjectTargets: 0
-    version: 8.1.12
-    eulaAcceptedVersions: '{"Values":["8.1"]}'
-  digitalEyewear:
-    cameraOffset: 0.06
-    distortionRenderingLayer: 31
-    eyewearType: 0
-    stereoFramework: 0
-    seeThroughConfiguration: 0
-    viewerName: 
-    viewerManufacturer: 
-    useCustomViewer: 0
-    customViewer:
-      Version: 0
-      Name: 
-      Manufacturer: 
-      ButtonType: 0
-      ScreenToLensDistance: 0
-      InterLensDistance: 0
-      TrayAlignment: 0
-      LensCenterToTrayDistance: 0
-      DistortionCoefficients: {x: 0, y: 0}
-      FieldOfView: {x: 0, y: 0, z: 0, w: 0}
-      ContainsMagnet: 0
+    modelTargetRecoWhileExtendedTracked: 1
+    version: 8.5.9
+    eulaAcceptedVersions: '{"Values":["8.1","8.5"]}'
   database:
     disableModelExtraction: 0
   videoBackground:
-    clippingMode: 0
     numDivisions: 2
     videoBackgroundShader: {fileID: 4800000, guid: f40623b353e2f1943b1b3ba42975db7a,
       type: 3}
-    matteShader: {fileID: 4800000, guid: 66d0d78a3000021448b598bb54a3bfdf, type: 3}
     videoBackgroundEnabled: 1
   deviceTracker:
     autoInitTracker: 0
     autoStartTracker: 0
-    trackingMode: 1
-    posePrediction: 0
-    modelCorrectionMode: 0
-    modelTransformEnabled: 0
-    modelTransform: {x: 0, y: 0.1, z: -0.1}
+    arcoreRequirement: 0
+    autoImportArcore: 0
   smartTerrain:
     autoInitTracker: 0
     autoStartTracker: 0
