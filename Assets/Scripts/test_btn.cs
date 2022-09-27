@@ -8,9 +8,9 @@ using UnityEngine.UI;
 public class test_btn : MonoBehaviour
 {
 
-    [SerializeField] GameObject MainPage, TrianglePage, CirclePage, RectanglePage;
+    [SerializeField] GameObject MainPage, TrianglePage, CirclePage, RectanglePage, CylineerPage, ConePage;
     [SerializeField] GameObject SubmitBtn, ShowAnswerBtn, GoToARBtn;
-    [SerializeField] GameObject UnderBtn; 
+    [SerializeField] GameObject UnderBtn;
     [SerializeField] GameObject[] AnswerPool;
 
     public void backClick()
@@ -32,6 +32,8 @@ public class test_btn : MonoBehaviour
             TrianglePage.SetActive(false);
             CirclePage.SetActive(false);
             RectanglePage.SetActive(false);
+            CylineerPage.SetActive(false);
+            ConePage.SetActive(false);
 
             Go_Back_To_Top();
 
@@ -49,27 +51,42 @@ public class test_btn : MonoBehaviour
         TrianglePage.transform.GetComponent<ScrollRect>().verticalNormalizedPosition = 1;
         CirclePage.transform.GetComponent<ScrollRect>().verticalNormalizedPosition = 1;
         RectanglePage.transform.GetComponent<ScrollRect>().verticalNormalizedPosition = 1;
+        CylineerPage.transform.GetComponent<ScrollRect>().verticalNormalizedPosition = 1;
+        ConePage.transform.GetComponent<ScrollRect>().verticalNormalizedPosition = 1;
+    }
+
+    void Btn_Active_Set()
+    {
+        MainPage.SetActive(false);
+        SubmitBtn.SetActive(true);
+        UnderBtn.SetActive(true);
     }
     public void TriangleClick()
     {
-        MainPage.SetActive(false);
+        Btn_Active_Set();
         TrianglePage.SetActive(true);
-        SubmitBtn.SetActive(true);
-        UnderBtn.SetActive(true);
     }
     public void CircleClick()
     {
-        MainPage.SetActive(false);
+        Btn_Active_Set();
         CirclePage.SetActive(true);
-        SubmitBtn.SetActive(true);
-        UnderBtn.SetActive(true);
     }
     public void RectangleClick()
     {
-        MainPage.SetActive(false);
+        Btn_Active_Set();
         RectanglePage.SetActive(true);
-        SubmitBtn.SetActive(true);
-        UnderBtn.SetActive(true);
+    }
+
+    public void CylineerClick()
+    {
+        Btn_Active_Set();
+        CylineerPage.SetActive(true);
+    }
+
+    public void ConeClick()
+    {
+        Btn_Active_Set();
+        ConePage.SetActive(true);
     }
 
     public void SubmitClick()
