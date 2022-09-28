@@ -122,11 +122,19 @@ public class test_btn : MonoBehaviour
         }
         else if (CirclePage.activeSelf)
         {
-            SceneManager.LoadSceneAsync("AR_Cirlce", LoadSceneMode.Single);
+            SceneManager.LoadSceneAsync("AR_Circle", LoadSceneMode.Single);
         }
-        else
+        else if (RectanglePage.activeSelf)
         {
             SceneManager.LoadSceneAsync("AR_Rectangle", LoadSceneMode.Single);
+        }
+        else if (CylineerPage.activeSelf)
+        {
+            SceneManager.LoadSceneAsync("AR_Cylineer", LoadSceneMode.Single);
+        }
+        else 
+        {
+            SceneManager.LoadSceneAsync("AR_Cone", LoadSceneMode.Single);
         }
     }
 
