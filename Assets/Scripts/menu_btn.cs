@@ -28,4 +28,8 @@ public class menu_btn : MonoBehaviour
     {
         SceneManager.LoadSceneAsync("Test", LoadSceneMode.Single);
     }
+    public void back_Click()
+    {
+        SceneManager.LoadSceneAsync("Menu", LoadSceneMode.Single);
+    }
 }

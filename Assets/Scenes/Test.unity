@@ -1347,8 +1347,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 55
-  m_fontSizeBase: 55
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1481,8 +1481,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 55
-  m_fontSizeBase: 55
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4229,7 +4229,7 @@ GameObject:
   - component: {fileID: 358383268}
   - component: {fileID: 358383267}
   m_Layer: 5
-  m_Name: Test_btn
+  m_Name: back_btn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4248,11 +4248,11 @@ RectTransform:
   m_Children:
   - {fileID: 566345267}
   m_Father: {fileID: 1455992157}
-  m_RootOrder: 7
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 140, y: -95.756836}
+  m_AnchoredPosition: {x: 125.11426, y: -95.75708}
   m_SizeDelta: {x: 250.22852, y: 191.51416}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &358383267
@@ -5794,7 +5794,7 @@ RectTransform:
   m_Children:
   - {fileID: 2106123481}
   m_Father: {fileID: 1455992157}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -7960,7 +7960,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -34.5, y: 60}
+  m_AnchoredPosition: {x: -24, y: 16}
   m_SizeDelta: {x: 250, y: 135}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &647003997
@@ -10176,7 +10176,7 @@ RectTransform:
   m_Children:
   - {fileID: 537344893}
   m_Father: {fileID: 1455992157}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -12746,7 +12746,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -340, y: 60}
+  m_AnchoredPosition: {x: -319, y: 16}
   m_SizeDelta: {x: 250, y: 135}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &943821797
@@ -15300,7 +15300,7 @@ RectTransform:
   m_Children:
   - {fileID: 649539663}
   m_Father: {fileID: 1455992157}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -17001,7 +17001,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -34.5, y: 60}
+  m_AnchoredPosition: {x: -24, y: 16}
   m_SizeDelta: {x: 250, y: 135}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &1309127969
@@ -18989,12 +18989,12 @@ RectTransform:
   m_Children:
   - {fileID: 1202043871}
   - {fileID: 977785789}
+  - {fileID: 358383266}
   - {fileID: 1717431021}
   - {fileID: 1129550355}
   - {fileID: 762982164}
   - {fileID: 1996691541}
   - {fileID: 445122648}
-  - {fileID: 358383266}
   - {fileID: 1309127968}
   - {fileID: 943821796}
   - {fileID: 647003996}
@@ -22941,7 +22941,7 @@ RectTransform:
   m_Children:
   - {fileID: 471003303}
   m_Father: {fileID: 1455992157}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -24748,7 +24748,7 @@ RectTransform:
   m_Children:
   - {fileID: 574371455}
   m_Father: {fileID: 1455992157}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -25675,7 +25675,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.42862153, g: 0.4269758, b: 0.8962264, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -25917,8 +25917,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 55
-  m_fontSizeBase: 55
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
