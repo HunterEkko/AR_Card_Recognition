@@ -6,7 +6,7 @@ public class RandomAngle : MonoBehaviour
 {
     public GameObject blank;
     private TMP_Text tmp;
-    private int[] arr = { 2, 3, 4, 5, 6, 8, 10, 12, 15, 18 };
+    private int[] arr = { 2, 3, 4, 5, 6, 8, 12};
     private int denominator, numerator, ans;
     void Start()
     {

@@ -14,16 +14,14 @@ public class SingleUISwitch : MonoBehaviour
     }
     void Update()
     {
-        if (TSM.Status == TrackableStatusManager.TurnStates.TRACK && !isOpenUI)
+        if (TSM.Status == TrackableStatusManager.TurnStates.TRACK)
         {
             UI.SetActive(true);
-            isOpenUI = true;
             AR.GetComponent<ARManager>().AR_close();
         }
-        else if (VuforiaBehaviour.Instance.enabled && isOpenUI)
+        else
         {
             UI.SetActive(false);
-            isOpenUI=false;
         }
     }
 }
