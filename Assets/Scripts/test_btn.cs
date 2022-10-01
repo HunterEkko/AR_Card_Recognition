@@ -11,8 +11,10 @@ public class test_btn : MonoBehaviour
     [SerializeField] GameObject MainPage, TrianglePage, CirclePage, RectanglePage, CylineerPage, ConePage;
     [SerializeField] GameObject SubmitBtn, ShowAnswerBtn, GoToARBtn;
     [SerializeField] GameObject UnderBtn;
-    [SerializeField] GameObject[] AnswerPool;
 
+    // [SerializeField] GameObject[] AnswerPool;
+
+    [SerializeField] GameObject ActivePage;
     public void backClick()
     {
         if (MainPage.activeSelf)
@@ -21,12 +23,11 @@ public class test_btn : MonoBehaviour
         }
         else
         {
-            foreach (GameObject k in AnswerPool)
+            foreach (GameObject k in ActivePage.GetComponent<AnswerPool>().Pool)
             {
                 if (k.activeInHierarchy)
                 {
                     k.GetComponent<InputAnswer>().Clear();
-                    k.GetComponent<InputAnswer>().Input.enabled = true;
                 }
             }
             TrianglePage.SetActive(false);
@@ -44,6 +45,7 @@ public class test_btn : MonoBehaviour
             UnderBtn.SetActive(false);
 
             MainPage.SetActive(true);
+            ActivePage = null;
         }
     }
     void Go_Back_To_Top()
@@ -65,33 +67,38 @@ public class test_btn : MonoBehaviour
     {
         Btn_Active_Set();
         TrianglePage.SetActive(true);
+        ActivePage = TrianglePage;
     }
     public void CircleClick()
     {
         Btn_Active_Set();
         CirclePage.SetActive(true);
+        ActivePage = CirclePage;
     }
     public void RectangleClick()
     {
         Btn_Active_Set();
         RectanglePage.SetActive(true);
+        ActivePage = RectanglePage;
     }
 
     public void CylineerClick()
     {
         Btn_Active_Set();
         CylineerPage.SetActive(true);
+        ActivePage = CylineerPage;
     }
 
     public void ConeClick()
     {
         Btn_Active_Set();
         ConePage.SetActive(true);
+        ActivePage = ConePage;
     }
 
     public void SubmitClick()
     {
-        foreach (GameObject k in AnswerPool)
+        foreach (GameObject k in ActivePage.GetComponent<AnswerPool>().Pool)
         {
             if (k.activeInHierarchy)
             {
@@ -105,7 +112,7 @@ public class test_btn : MonoBehaviour
 
     public void ShowAnswerClick()
     {
-        foreach (GameObject k in AnswerPool)
+        foreach (GameObject k in ActivePage.GetComponent<AnswerPool>().Pool)
         {
             if (k.activeInHierarchy)
             {
