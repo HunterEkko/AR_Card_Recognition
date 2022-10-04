@@ -6,16 +6,21 @@ public class SingleUISwitch : MonoBehaviour
 {
     public TrackableStatusManager TSM;
     public GameObject UI;
-    private bool isOpenUI = false;
+    public bool OpenUI = false;
     void Update()
     {
-        if (TSM.Status == TrackableStatusManager.TurnStates.TRACK)
+        if (TSM.Status == TrackableStatusManager.TurnStates.TRACK && !OpenUI)
         {
-            UI.SetActive(true);
+            OpenUI = true;
+            UI.transform.parent.Find("Show_UI_Btn").gameObject.SetActive(true);
+            // UI.SetActive(true);
+            // UI.transform.parent.Find("White_BG").gameObject.SetActive(true);
         }
-        else
+        else if (TSM.Status == TrackableStatusManager.TurnStates.LOST && OpenUI)
         {
+            OpenUI = false;
             UI.SetActive(false);
+            UI.transform.parent.Find("Show_UI_Btn").gameObject.SetActive(false);
         }
     }
 }
