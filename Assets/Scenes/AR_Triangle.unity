@@ -345,8 +345,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 52.2
-  m_fontSizeBase: 52.2
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -903,7 +903,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u76F4\u89D2\u4E09\u89D2\u5F62\uFF1A\n\t\u6709\u4E00\u500B\u89D2\u662F<color=red>\u76F4\u89D2</color>\n\t\u53E6\u5916\u5169\u500B\u89D2\u5FC5\u70BA<color=red>\u92B3\u89D2</color>\n\n\t\u76F4\u89D2\u4E09\u89D2\u5F62\u5167\u6700\u9577\u7684\u908A\u53EB<color=red>\u659C\u908A</color>\n\n\t\u4E09\u89D2\u5F62\u5167\u89D2\u5EA6\u7E3D\u5171\u662F<color=red>180\u5EA6</color>"
+  m_text: "\u76F4\u89D2\u4E09\u89D2\u5F62\uFF1A\n1. \u6709\u4E00\u500B\u89D2\u662F<color=red>\u76F4\u89D2</color>\n   
+    \u53E6\u5916\u5169\u500B\u89D2\u5FC5\u70BA<color=red>\u92B3\u89D2</color>\n\n2.
+    \u76F4\u89D2\u4E09\u89D2\u5F62\u5167\u6700\u9577\u7684\u908A\u53EB<color=red>\u659C\u908A</color>\n\n3.
+    \u4E09\u89D2\u5F62\u5167\u89D2\u5EA6\u7E3D\u5171\u662F<color=red>180\u5EA6</color>"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 43d150f3a917de446a78bfc1c55c89c2, type: 2}
   m_sharedMaterial: {fileID: -4965617531965580642, guid: 43d150f3a917de446a78bfc1c55c89c2,
@@ -1118,7 +1121,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u920D\u89D2\u4E09\u89D2\u5F62\uFF1A\n\t\u6709\u4E00\u500B\u89D2\u662F<color=red>\u920D\u89D2</color>\n\t\u53E6\u5916\u5169\u500B\u89D2\u5FC5\u70BA<color=red>\u92B3\u89D2</color>\n\n\t\u920D\u89D2\uFF1A\u4ECB\u65BC<color=red>90\u5EA6</color>\u5230<color=red>180\u5EA6</color>\u7684\u89D2\n\n\t\u4E09\u89D2\u5F62\u5167\u89D2\u5EA6\u7E3D\u5171\u662F<color=red>180\u5EA6</color>"
+  m_text: "\u920D\u89D2\u4E09\u89D2\u5F62\uFF1A\n1. \u6709\u4E00\u500B\u89D2\u662F<color=red>\u920D\u89D2</color>\n   
+    \u53E6\u5916\u5169\u500B\u89D2\u5FC5\u70BA<color=red>\u92B3\u89D2</color>\n\n2.
+    \u920D\u89D2\uFF1A\u4ECB\u65BC<color=red>90\u5EA6</color>\u5230<color=red>180\u5EA6</color>\u7684\u89D2\n\n3.
+    \u4E09\u89D2\u5F62\u5167\u89D2\u5EA6\u7E3D\u5171\u662F<color=red>180\u5EA6</color>"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 43d150f3a917de446a78bfc1c55c89c2, type: 2}
   m_sharedMaterial: {fileID: -4965617531965580642, guid: 43d150f3a917de446a78bfc1c55c89c2,
@@ -2098,7 +2104,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u7B49\u8170\u4E09\u89D2\u5F62\uFF1A\n\t\u64C1\u6709\u5169\u908A\u9577\u5EA6\u76F8\u7B49\u7684\u4E09\u89D2\u5F62\uFF0C\n\t\u76F8\u7B49\u7684\u5169\u500B\u908A\u53EB<color=red>\u8170</color>\uFF0C\u53E6\u4E00\u908A\u53EB<color=red>\u5E95\u908A</color>\n\n\t\u76F8\u7B49\u7684\u5169\u500B\u89D2\u53EB<color=red>\u5E95\u89D2</color>\uFF0C\n\t\u5176\u9918\u7684\u89D2\u53EB\u505A<color=red>\u9802\u89D2</color>\n\n\t\u4E09\u89D2\u5F62\u5167\u89D2\u5EA6\u7E3D\u5171\u662F<color=red>180\u5EA6</color>"
+  m_text: "\u7B49\u8170\u4E09\u89D2\u5F62\uFF1A\n1. \u64C1\u6709\u5169\u908A\u9577\u5EA6\u76F8\u7B49\u7684\u4E09\u89D2\u5F62\uFF0C\n  
+    \u76F8\u7B49\u7684\u5169\u500B\u908A\u53EB<color=red>\u8170</color>\uFF0C\u53E6\u4E00\u908A\u53EB<color=red>\u5E95\u908A</color>\n\n2.
+    \u76F8\u7B49\u7684\u5169\u500B\u89D2\u53EB<color=red>\u5E95\u89D2</color>\uFF0C\n   
+    \u5176\u9918\u7684\u89D2\u53EB\u505A<color=red>\u9802\u89D2</color>\n\n3. \u4E09\u89D2\u5F62\u5167\u89D2\u5EA6\u7E3D\u5171\u662F<color=red>180\u5EA6</color>"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 43d150f3a917de446a78bfc1c55c89c2, type: 2}
   m_sharedMaterial: {fileID: -4965617531965580642, guid: 43d150f3a917de446a78bfc1c55c89c2,
@@ -2232,7 +2241,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u92B3\u89D2\u4E09\u89D2\u5F62\uFF1A\n\t\u4E09\u500B\u89D2\u5FC5\u70BA<color=red>\u92B3\u89D2</color>\uFF0C\u6C92\u6709<color=red>\u920D\u89D2</color>\u8DDF<color=red>\u76F4\u89D2</color>\n\n\t\u92B3\u89D2\uFF1A\u5C0F\u65BC<color=red>90\u5EA6</color>\u7684\u89D2\n\n\t\u4E09\u89D2\u5F62\u5167\u89D2\u5EA6\u7E3D\u5171\u662F<color=red>180\u5EA6</color>"
+  m_text: "\u92B3\u89D2\u4E09\u89D2\u5F62\uFF1A\n1. \u4E09\u500B\u89D2\u5FC5\u70BA<color=red>\u92B3\u89D2</color>\uFF0C\u6C92\u6709<color=red>\u920D\u89D2</color>\u8DDF<color=red>\u76F4\u89D2</color>\n\n2.
+    \u92B3\u89D2\uFF1A\u5C0F\u65BC<color=red>90\u5EA6</color>\u7684\u89D2\n\n3. \u4E09\u89D2\u5F62\u5167\u89D2\u5EA6\u7E3D\u5171\u662F<color=red>180\u5EA6</color>"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 43d150f3a917de446a78bfc1c55c89c2, type: 2}
   m_sharedMaterial: {fileID: -4965617531965580642, guid: 43d150f3a917de446a78bfc1c55c89c2,
@@ -2340,7 +2350,7 @@ PrefabInstance:
     - target: {fileID: 1049242616600787932, guid: cddb72fd95b4f4c43b11b464f56a5dd3,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1049242616600787932, guid: cddb72fd95b4f4c43b11b464f56a5dd3,
         type: 3}
@@ -3109,8 +3119,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 52.2
-  m_fontSizeBase: 52.2
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4864,8 +4874,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 52.2
-  m_fontSizeBase: 52.2
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -5068,8 +5078,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 52.2
-  m_fontSizeBase: 52.2
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

@@ -223,7 +223,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u83F1\u5F62\uFF1A\n\t\u5169\u7D44\u5C0D\u908A\u3001\u5C0D\u89D2<color=red>\u76F8\u7B49</color>\n\t\n\t\u56DB\u500B\u908A\u90FD<color=red>\u7B49\u9577</color>\n\t\n\t\u5169\u689D\u5C0D\u89D2\u7DDA\u4E92\u76F8<color=red>\u5E73\u5206</color>\n\n\t\u83F1\u5F62<color=red>\u662F</color>\u5E73\u884C\u56DB\u908A\u5F62\u7684\u4E00\u7A2E\uFF0C\n\t\u4F46\u5E73\u884C\u56DB\u908A\u5F62<color=red>\u4E0D\u4E00\u5B9A\u662F</color>\u83F1\u5F62"
+  m_text: "\u83F1\u5F62\uFF1A\n1. \u5169\u7D44\u5C0D\u908A\u3001\u5C0D\u89D2<color=red>\u76F8\u7B49</color>\n\t\n2.
+    \u56DB\u500B\u908A\u90FD<color=red>\u7B49\u9577</color>\n\t\n3. \u5169\u689D\u5C0D\u89D2\u7DDA\u4E92\u76F8<color=red>\u5E73\u5206</color>\n\n4.
+    \u83F1\u5F62<color=red>\u662F</color>\u5E73\u884C\u56DB\u908A\u5F62\u7684\u4E00\u7A2E\uFF0C\n   
+    \u4F46\u5E73\u884C\u56DB\u908A\u5F62<color=red>\u4E0D\u4E00\u5B9A\u662F</color>\u83F1\u5F62"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 43d150f3a917de446a78bfc1c55c89c2, type: 2}
   m_sharedMaterial: {fileID: -4965617531965580642, guid: 43d150f3a917de446a78bfc1c55c89c2,
@@ -1671,7 +1674,7 @@ MonoBehaviour:
   mDataSetPath: Vuforia/AR20221009.xml
   mAspectRatio: 1.001945
   mImageTargetType: 0
-  mWidth: 1.001945
+  mWidth: 1
   mHeight: 1.001945
 --- !u!1 &550136630
 GameObject:
@@ -2593,7 +2596,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u6B63\u65B9\u5F62\uFF1A\n\t\u5169\u7D44\u5C0D\u908A\u3001\u5C0D\u89D2<color=red>\u76F8\u7B49</color>\n\t\n\t\u5C0D\u908A\u4E92\u76F8<color=red>\u5E73\u884C</color>\n\t\n\t\u5169\u689D\u5C0D\u89D2\u7DDA\u4E92\u76F8<color=red>\u5E73\u5206</color>\u4E14<color=red>\u5782\u76F4</color>\n\n\t\u6B63\u65B9\u5F62\u5177\u6709\u83F1\u5F62\u3001\u77E9\u5F62\u6240\u6709\u7684\u6027\u8CEA"
+  m_text: "\u6B63\u65B9\u5F62\uFF1A\n1. \u5169\u7D44\u5C0D\u908A\u3001\u5C0D\u89D2<color=red>\u76F8\u7B49</color>\n\t\n2.
+    \u5C0D\u908A\u4E92\u76F8<color=red>\u5E73\u884C</color>\n\t\n3. \u5169\u689D\u5C0D\u89D2\u7DDA\u4E92\u76F8<color=red>\u5E73\u5206</color>\u4E14<color=red>\u5782\u76F4</color>\n\n4.
+    \u6B63\u65B9\u5F62\u5177\u6709\u83F1\u5F62\u3001\u77E9\u5F62\u6240\u6709\u7684\u6027\u8CEA"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 43d150f3a917de446a78bfc1c55c89c2, type: 2}
   m_sharedMaterial: {fileID: -4965617531965580642, guid: 43d150f3a917de446a78bfc1c55c89c2,
@@ -2755,8 +2760,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 52.2
-  m_fontSizeBase: 52.2
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3454,8 +3459,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 52.2
-  m_fontSizeBase: 52.2
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3662,8 +3667,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u9577\u65B9\u5F62\uFF1A\n\t\u6BCF\u500B\u89D2\u90FD\u662F<color=red>
-    90 </color>\u5EA6\n\t\n\t\u9577\u7684\u908A\u662F<color=red>\u9577\u65B9\u5F62\u7684\u9577</color>\uFF0C\n\t\u77ED\u7684\u908A\u662F<color=red>\u9577\u65B9\u5F62\u7684\u5BEC</color>\n\t\n\t\u5C0D\u908A\u4E92\u76F8<color=red>\u5E73\u884C</color>\u3001\u9130\u908A\u4E92\u76F8<color=red>\u5782\u76F4</color>\n\t\n\t\u9577\u65B9\u5F62\u5169\u689D\u5C0D\u89D2\u7DDA\u4E92\u76F8<color=red>\u4E0D\u5782\u76F4</color>"
+  m_text: "\u9577\u65B9\u5F62\uFF1A\n1. \u6BCF\u500B\u89D2\u90FD\u662F<color=red>
+    90 </color>\u5EA6\n\t\n2. \u9577\u7684\u908A\u662F<color=red>\u9577\u65B9\u5F62\u7684\u9577</color>\uFF0C\n   
+    \u77ED\u7684\u908A\u662F<color=red>\u9577\u65B9\u5F62\u7684\u5BEC</color>\n\t\n3.
+    \u5C0D\u908A\u4E92\u76F8<color=red>\u5E73\u884C</color>\u3001\u9130\u908A\u4E92\u76F8<color=red>\u5782\u76F4</color>\n\t\n4.
+    \u9577\u65B9\u5F62\u5169\u689D\u5C0D\u89D2\u7DDA\u4E92\u76F8<color=red>\u4E0D\u5782\u76F4</color>"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 43d150f3a917de446a78bfc1c55c89c2, type: 2}
   m_sharedMaterial: {fileID: -4965617531965580642, guid: 43d150f3a917de446a78bfc1c55c89c2,
@@ -4965,7 +4973,7 @@ MonoBehaviour:
   mDataSetPath: Vuforia/AR20221009.xml
   mAspectRatio: 1.001945
   mImageTargetType: 0
-  mWidth: 1.001945
+  mWidth: 1
   mHeight: 1.001945
 --- !u!4 &1770497733
 Transform:
@@ -5012,7 +5020,7 @@ PrefabInstance:
     - target: {fileID: 1049242616600787932, guid: cddb72fd95b4f4c43b11b464f56a5dd3,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1049242616600787932, guid: cddb72fd95b4f4c43b11b464f56a5dd3,
         type: 3}
@@ -5173,7 +5181,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u5E73\u884C\u56DB\u908A\u5F62\uFF1A\n\t\u5169\u7D44\u5C0D\u908A\u3001\u5C0D\u89D2<color=red>\u76F8\u7B49</color>\n\t\n\t\u5C0D\u908A\u4E92\u76F8<color=red>\u5E73\u884C</color>\n\t\n\t\u5169\u689D\u5C0D\u89D2\u7DDA\u4E92\u76F8<color=red>\u5E73\u5206</color>\n\n\t\u77E9\u5F62<color=red>\u662F</color>\u5E73\u884C\u56DB\u908A\u5F62\u7684\u4E00\u7A2E"
+  m_text: "\u5E73\u884C\u56DB\u908A\u5F62\uFF1A\n1. \u5169\u7D44\u5C0D\u908A\u3001\u5C0D\u89D2<color=red>\u76F8\u7B49</color>\n\t\n2.
+    \u5C0D\u908A\u4E92\u76F8<color=red>\u5E73\u884C</color>\n\t\n3. \u5169\u689D\u5C0D\u89D2\u7DDA\u4E92\u76F8<color=red>\u5E73\u5206</color>\n\n4.
+    \u77E9\u5F62<color=red>\u662F</color>\u5E73\u884C\u56DB\u908A\u5F62\u7684\u4E00\u7A2E"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 43d150f3a917de446a78bfc1c55c89c2, type: 2}
   m_sharedMaterial: {fileID: -4965617531965580642, guid: 43d150f3a917de446a78bfc1c55c89c2,
@@ -5490,8 +5500,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 52.2
-  m_fontSizeBase: 52.2
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
