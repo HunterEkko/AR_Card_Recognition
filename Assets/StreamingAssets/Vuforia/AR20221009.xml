@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="triangle04" size="1.000000 1.001945" />
+    <ImageTarget name="triangle03" size="1.000000 1.000000" />
+    <ImageTarget name="triangle02" size="1.000000 1.000000" />
+    <ImageTarget name="triangle01" size="1.000000 1.000000" />
+    <ImageTarget name="rectangle04" size="1.000000 1.000000" />
+    <ImageTarget name="rectangle03" size="1.000000 1.001945" />
+    <ImageTarget name="rectangle02" size="1.000000 1.001945" />
+    <ImageTarget name="rectangle01" size="1.000000 1.001945" />
+    <ImageTarget name="cylinder03" size="1.000000 1.000000" />
+    <ImageTarget name="cylinder02" size="1.000000 1.001945" />
+    <ImageTarget name="cylinder01" size="1.000000 0.998058" />
+    <ImageTarget name="cone03" size="1.000000 0.998058" />
+    <ImageTarget name="cone02" size="1.000000 1.001945" />
+    <ImageTarget name="cone01" size="1.000000 1.000000" />
+    <ImageTarget name="circle02" size="1.000000 0.998058" />
+    <ImageTarget name="circle01" size="1.000000 0.998058" />
+  </Tracking>
+</QCARConfig>
