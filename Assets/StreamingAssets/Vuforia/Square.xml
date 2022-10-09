@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
-  <Tracking>
-    <ImageTarget name="square_rectangle" size="1.000000 1.001057" />
-    <ImageTarget name="square_parallelogram" size="1.000000 1.000000" />
-    <ImageTarget name="square_diamond" size="1.000000 1.000000" />
-    <ImageTarget name="square" size="1.000000 1.000000" />
-  </Tracking>
-</QCARConfig>
