@@ -186,9 +186,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dd9b306730bcd74cb5a783c5da77081, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsButtonInput: 0
+  BtnPos: 
+  Btn: []
+  Input: {fileID: 0}
   Answer: "\u4E09\u89D2\u5F62"
-  colorRight: {r: 0.21359916, g: 0.6037736, b: 0.3569279, a: 1}
-  colorWrong: {r: 0.87058824, g: 0.16862746, b: 0.16862746, a: 1}
+  MaxLen: 0
+  colorRight: {r: 0.24363652, g: 0.7075472, b: 0.40939227, a: 1}
+  colorWrong: {r: 0.8490566, g: 0.3244037, b: 0.3244037, a: 1}
+  Btn_Select_Color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &8581991098355929288
 GameObject:
   m_ObjectHideFlags: 0
@@ -307,7 +313,7 @@ MonoBehaviour:
   m_text: "\u200B"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 43d150f3a917de446a78bfc1c55c89c2, type: 2}
-  m_sharedMaterial: {fileID: 6758451728757248718, guid: 43d150f3a917de446a78bfc1c55c89c2,
+  m_sharedMaterial: {fileID: -4965617531965580642, guid: 43d150f3a917de446a78bfc1c55c89c2,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
